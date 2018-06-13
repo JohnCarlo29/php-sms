@@ -1,0 +1,62 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+
+html,body{ 
+	height: 100%;
+}
+
+
+#smsbox{
+	width: 320px;
+	height: 370px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+#smsbox h1{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#smsbox p{
+	margin-bottom: 5px;
+}
+
+#smsbox input{
+	border-style: none;
+	height: 30px;
+}
+
+#smsbox input, #smsbox textarea{
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+#smsbox .buttons{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input#send, input#clear{
+	width: 120px;
+	height: 30px;
+}
+
+input#send{
+	float:left;
+}
+
+input#clear{
+	float:right;
+}
